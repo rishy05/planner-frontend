@@ -38,7 +38,7 @@ const Form = () => {
         
         try {
             console.log(originInput, destiInput, numInput, vibeInput)
-            const res = await fetch('http://127.0.0.1:8080/all', {
+            const res = await fetch('https://planner-site-1.onrender.com/all', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',

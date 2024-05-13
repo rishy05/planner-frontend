@@ -85,7 +85,7 @@ const Itinerary = () => {
         const fetchData = async () => {
             try {
                 // URL of the endpoint you want to send data to
-                const url = 'http://127.0.0.1:8080/info';
+                const url = 'https://planner-site-1.onrender.com/info';
 
                 // Data you want to send in the request body
                 const requestData = {
