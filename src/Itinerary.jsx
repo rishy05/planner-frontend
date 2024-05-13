@@ -36,7 +36,7 @@ const handleModifyClick = async (day, data, setData) => {
             body: JSON.stringify(requestData)
         };
 
-        const response = await fetch('http://127.0.0.1:8080/modify', options);
+        const response = await fetch('https://planner-site-1.onrender.com/modify', options);
 
         if (!response.ok) {
             throw new Error('Failed to modify itinerary');
